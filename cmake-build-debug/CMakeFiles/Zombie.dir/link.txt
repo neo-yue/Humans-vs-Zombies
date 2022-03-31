@@ -1,0 +1,3 @@
+C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Zombie.dir/objects.a
+D:\mingw64\bin\ar.exe cr CMakeFiles\Zombie.dir/objects.a @CMakeFiles\Zombie.dir\objects1.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Zombie.dir/objects.a -Wl,--no-whole-archive -o Zombie.exe -Wl,--out-implib,libZombie.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Zombie.dir\linklibs.rsp
